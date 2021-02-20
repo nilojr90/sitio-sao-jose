@@ -1,26 +1,13 @@
 import React, { ReactElement } from 'react';
-import logo from 'assets/logo.svg';
-import 'app/App.scss';
+import './App.scss';
+import backgroundH from '../assets/background.png';
+import backgroundV from '../assets/background-v.png';
 
 function App(): ReactElement {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code> src/App.tsx </code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="only-desktop" src={backgroundH} alt="" />
+      <img className="only-mobile" src={backgroundV} alt="" />
     </div>
   );
 }
