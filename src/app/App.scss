@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 555px) {
   .App {
+    background-position: top center;
     & > .only-desktop {
       display: none;
     }
