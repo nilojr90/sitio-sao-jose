@@ -7,7 +7,7 @@ function SocialBar(): ReactElement {
     <div className="SocialBar">
       <SocialIcon
         network={SocialNetwork.Whatsapp}
-        url="https://api.whatsapp.com/send?phone=5579998931328&text=Oi"
+        url="https://api.whatsapp.com/send?phone=5579998391328&text=Oi"
       />
       <SocialIcon
         network={SocialNetwork.Instagram}
