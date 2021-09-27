@@ -1,7 +1,7 @@
 @import 'tokens.scss';
 
-
 body {
+  min-width: 240px;
   margin: 0;
   font-family: $primary-font-family;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,8 @@ body {
 
 code {
   font-family: $code-font-family;
+}
+
+red-border {
+  border: solid 2px red;
 }

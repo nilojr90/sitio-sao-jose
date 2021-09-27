@@ -1,0 +1,14 @@
+.SocialIcon {
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (max-width: 555px) {
+  .SocialIcon {
+  }
+}
+@media screen and (min-width: 556px) {
+  .SocialIcon {
+  }
+}

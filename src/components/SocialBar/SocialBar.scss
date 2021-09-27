@@ -1,0 +1,19 @@
+.SocialBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  top: 80vh;
+  z-index: 1;
+}
+
+@media screen and (max-width: 555px) {
+  .SocialBar {
+    top: 60vh;
+  }
+}
+@media screen and (min-width: 556px) {
+  .SocialBar {
+  }
+}
